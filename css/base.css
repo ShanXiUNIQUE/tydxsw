@@ -15,8 +15,8 @@ img{
 a{
 	color:#515151;
 	text-decoration: none;
-	-webkit-transition:color 0.2s linear,background-color 0.3s linear,border 0.3s linear;
-	transition: color 0.2s linear,background-color 0.3s linear,border 0.3s linear;
+	-webkit-transition:color 0.2s linear;
+	transition: color 0.2s linear;
 }
 .lt{float:left;}
 .rt{float:right;}
