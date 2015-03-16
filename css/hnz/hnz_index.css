@@ -210,6 +210,56 @@
 	background:none;
 	border:1px solid #fff;
 	}
+.hnz_banner_login{
+	width:286px;
+	height:334px;
+	margin-top:17px;
+	box-shadow:0 0 8px #aaa;
+	float:right;
+	background: url(../../images/hnz/hnz_login_bg.png) repeat 0 0;
+	}
+.hnz_login_t{
+	width:100%;
+	height:90px;
+	}
+.hnz_login_t div{
+	width:50%;
+	height:100%;
+	float:left;
+	position:relative;
+	}
+.hnz_login_t .hnz_login_user_hot:after{
+	content:"";
+	width:0;
+	height:0;
+	border-top:10px solid #0391DA;
+	border-left:10px solid rgba(0,0,0,0);
+	border-right:10px solid rgba(0,0,0,0);
+	position:absolute;
+	z-index:200;
+	bottom:-10px;
+	left:50%;
+	margin-left:-10px;
+	}
+.hnz_login_t .hnz_login_ent_hot:after{
+	content:"";
+	width:0;
+	height:0;
+	border-top:10px solid #0080c0;
+	border-left:10px solid rgba(0,0,0,0);
+	border-right:10px solid rgba(0,0,0,0);
+	position:absolute;
+	z-index:200;
+	bottom:-10px;
+	left:50%;
+	margin-left:-10px;
+	}
+.hnz_login_user{
+	background:#0391da;
+	}
+.hnz_login_ent{
+	background:#007dba;
+	}
 /*Banner End*/
 
 
