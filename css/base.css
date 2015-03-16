@@ -1,0 +1,22 @@
+/*reset by hnz*/
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,input{
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-weight: normal;
+}
+body{
+	font:12px "Microsoft YaHei";
+	background:#F8F8F8;
+}
+img{
+	border:0;
+}
+a{
+	color:#515151;
+	text-decoration: none;
+	-webkit-transition:color 0.2s linear,background-color 0.3s linear,border 0.3s linear;
+	transition: color 0.2s linear,background-color 0.3s linear,border 0.3s linear;
+}
+.lt{float:left;}
+.rt{float:right;}
