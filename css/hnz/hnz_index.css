@@ -306,14 +306,16 @@
 	border-bottom:1px solid #cecece;
 	margin-left:21px;
 	font-size:14px;
+	background-color:inherit;
 	}
 .hnz_login_input .hnz_login_u{
 	margin-top:40px;
-	background:rgba(0,0,0,0) url(../../images/hnz/hnz_login_user.gif) no-repeat 0 center;
+	background: url(../../images/hnz/hnz_login_user.gif) no-repeat 0 center;
+	
 	}
 .hnz_login_input .hnz_login_pwd{
 	margin-top:20px;
-	background:rgba(0,0,0,0) url(../../images/hnz/hnz_login_pwd.gif) no-repeat 0 center;
+	background: url(../../images/hnz/hnz_login_pwd.gif) no-repeat 0 center;
 	}
 .hnz_login_input_btn{
 	width:245px;
