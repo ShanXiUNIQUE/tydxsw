@@ -74,7 +74,8 @@
 .hnz_search{
 	width:338px;
 	height:38px;
-	margin-top:68px;
+	
+	margin:68px 0 0 0;
 	border:1px solid #e3e3e3;
 	}
 .hnz_search form{
@@ -198,10 +199,12 @@
 .hnz_banner_btn li{
 	width:10px;
 	height:10px;
+	cursor:pointer;
 	border-radius:50%;
 	margin-top:11px;
 	background:#fff;
 	float:left;
+	_display:inline;
 	margin-right:5px;
 	}
 .hnz_banner_btn .hnz_banner_hot{
@@ -292,6 +295,7 @@
 	}
 	
 .hnz_login_input .hnz_login_u,.hnz_login_pwd{
+	_display:inline;
 	width:220px;
 	padding-left:25px;
 	margin:0 auto;
