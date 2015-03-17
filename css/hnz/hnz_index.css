@@ -565,6 +565,10 @@
 	line-height:30px;
 	float:right;
 	}
+.hnz_fl_fls .hnz_fls_more:hover{
+	color:#ff9600;
+	border-color:#ff9600;
+	}
 /*兼职信息 End*/
 .hnz_gg_box{
 	min-width:1002px;
@@ -659,6 +663,9 @@
 	box-shadow:0 2px 8px #ccc;
 	border-radius:50%;
 	border:3px solid #fff;
+	}
+.hnz_star_list_one:hover{
+	color:#008cd4;
 	}
 .hnz_star_list_one:hover ul{
 	background:#ff9600;
