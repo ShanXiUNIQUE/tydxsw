@@ -60,6 +60,11 @@
 	}
 /*top End*/
 /*logo Start*/
+.hnz_logo_out{
+	min-width:1002px;
+	height:130px;
+	background:#f8f8f8;
+	}
 .hnz_logo_box{
 	width:1002px;
 	height:130px;
