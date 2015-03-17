@@ -372,7 +372,7 @@
 	height:74px;
 	position:relative;
 	left:50%;
-	top:-10px;
+	top:-11px;
 	margin-left:-118px;
 	}
 .hnz_fl_infor_list{
@@ -569,7 +569,7 @@
 .hnz_gg_box{
 	min-width:1002px;
 	height:242px;
-	background:url(../../images/hnz/hnz_gg_img.jpg) no-repeat  center top;
+	background:#f8f8f8 url(../../images/hnz/hnz_gg_img.jpg) no-repeat  center top;
 	overflow:hidden;
 	border-top:1px solid #e6e6e6;
 	border-bottom:10px solid #e6e6e6;
@@ -582,11 +582,141 @@
 	padding:2px;
 	margin:30px auto 0;
 	overflow:hidden;
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	}
+.hnz_gg:hover{
+	-webkit-transform:translateY(-10px);
+	transform: translateY(-10px);
 	}
 .hnz_gg img{
 	width:100%;
 	}
-
+/*星级评测 Start*/
+.hnz_star_box{
+	min-width:1002px;
+	height:527px;
+	box-shadow:2px 2px 5px #aaa;
+	position:relative;
+	background:#fcfcfc url(../../images/hnz/hnz_star_bg.jpg) no-repeat center 0;
+	}
+.hnz_star{
+	width:1002px;
+	height:100%;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.hnz_star_title{
+	width:247px;
+	height:74px;
+	position:relative;
+	top:-11px;
+	left:50%;
+	margin-left:-119px;
+	background:url(../../images/hnz/hnz_star_title.jpg) no-repeat 0 0;
+	}
+.hnz_star_top{
+	width:100%;
+	height:56px;
+	border-bottom:1px dashed #979797;
+	}
+.hnz_star_top_link{
+	width:298px;
+	height:32px;
+	margin:0 auto;
+	border:1px solid #008cd4;
+	border-radius:16px;
+	overflow:hidden;
+	}
+.hnz_star_top_link a{
+	width:50%;
+	float:left;
+	height:100%;
+	line-height:32px;
+	text-align:center;
+	color:#008cd4;
+	font-size:14px;
+	}
+.hnz_star_top_link .hnz_star_hot{
+	color:#fff;
+	background:#008cd4;
+	}
+.hnz_star_list{
+	width:100%;
+	height:397px;
+	overflow:hidden;
+	}
+.hnz_star_list .hnz_star_list_one{
+	float:left;
+	width:20%;
+	height:100%;
+	}
+.hnz_star_list_one ul{
+	width:145px;
+	height:145px;
+	margin:50px auto 30px;
+	background:#c6c6c6;
+	box-shadow:0 2px 8px #ccc;
+	border-radius:50%;
+	border:3px solid #fff;
+	}
+.hnz_star_list_one:hover ul{
+	background:#ff9600;
+	}
+.hnz_star_list_one ul li{
+	width:123px;
+	height:123px;
+	margin:8px auto;
+	border-radius:50%;
+	border:3px solid #fff;
+	overflow:hidden;
+	}
+.hnz_star_list_one ul li img{
+	width:100%;
+	}
+.hnz_star_list_one h3{
+	width:100%;
+	height:30px;
+	font-size:18px;
+	line-height:30px;
+	text-align:center;
+	}
+.hnz_star_list_one p{
+	width:100%;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	font-size:14px;
+	color:#a9a8a8;
+	}
+.hnz_star_list_one i{
+	display:block;
+	width:60px;
+	margin:20px auto;
+	border-bottom:1px solid #a9a8a8;
+	}
+.hnz_star_list_one span{
+	display:block;
+	width:129px;
+	height:17px;
+	margin:0 auto;
+	}
+.hnz_star_list_one .hnz_star5{
+	background:url(../../images/hnz/hnz_star.jpg) no-repeat 0 0;
+	}
+.hnz_star_list_one .hnz_star4{
+	background:url(../../images/hnz/hnz_star.jpg) no-repeat 0 -30px;
+	}
+.hnz_star_list_one .hnz_star3{
+	background:url(../../images/hnz/hnz_star.jpg) no-repeat 0 -59px;
+	}
+.hnz_star_list_one .hnz_star2{
+	background:url(../../images/hnz/hnz_star.jpg) no-repeat 0 -92px;
+	}
+.hnz_star_list_one .hnz_star1{
+	background:url(../../images/hnz/hnz_star.jpg) no-repeat 0 -120px;
+	}
+/*星级评测 End*/
 
 
 

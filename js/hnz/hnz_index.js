@@ -13,4 +13,15 @@ $(function(){
 		
 		})
 	/*login End*/
+	/*star Start*/
+	var hnzStarLink=$(".hnz_star_top_link a");
+	var hnzStarList=$(".hnz_star_list");
+	hnzStarLink.hover(function(){
+		var index=hnzStarLink.index(this);
+		hnzStarLink.removeClass("hnz_star_hot");
+		$(this).addClass("hnz_star_hot");
+		hnzStarList.css("display","none");
+		hnzStarList.eq(index).css("display","block");
+		})
+	/*star End*/
 	})
