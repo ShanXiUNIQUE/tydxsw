@@ -24,4 +24,13 @@ $(function(){
 		hnzStarList.eq(index).css("display","block");
 		})
 	/*star End*/
+	var hnzfcList=$(".hnz_fczs_r_one");
+	var hnzfcText=$(".hnz_fczs_r_one span");
+	hnzfcList.hover(function(){
+		hnzfcText.stop();
+		hnzfcText.css({"bottom":"-35px"});
+		$(this).find("span").animate({"bottom":"0"},300);
+		},function(){
+			hnzfcText.animate({"bottom":"-35px"},300);
+			})
 	})

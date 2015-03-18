@@ -725,7 +725,143 @@
 	}
 /*星级评测 End*/
 
+/*风采展示 Start 160 80*/
+.hnz_fczs_title{
+	width:230px;
+	height:80px;
+	padding:40px 0;
+	margin:0 auto;
+	}
+.hnz_fczs_title h3{
+	font-size:24px;
+	color:#515151;
+	text-align:center;
+	}
+.hnz_fczs_title  p{
+	font-size:16px;
+	color:#787878;
+	text-align:center;
+	text-transform:uppercase;
+	}
+.hnz_fczs_title span{
+	display:block;
+	width:45px;
+	overflow:hidden;
+	border-bottom:2px solid #f59102;
+	margin:25px auto 0;
+	}
+.hnz_fczs_list_box{
+	min-width:1002px;
+	height:334px;
+	background:#fdfdfd;
+	box-shadow:0 2px 6px #aaa;
+	}
+.hnz_fczs_list{
+	width:987px;
+	height:314px;
+	padding:10px;
+	padding-right:5px;
+	margin:0 auto;
+	overflow:hidden;
+	}
+.hnz_fczs_left{
+	width:318px;
+	height:314px;
+	float:left;
+	overflow:hidden;
+	}
+.hnz_fczs_left img{
+	display:block;
+	margin-bottom:5px;
+	}
+.hnz_fczs_l_t{
+	width:100%;
+	height:64px;
+	background:url(../../images/hnz/hnz_fczs_bg.gif) no-repeat 0 0;
+	}
+.hnz_fczs_l_t a{
+	display:block;
+	width:100%;
+	height:45px;
+	font-size:18px;
+	color:#979797;
+	text-align:center;
+	line-height:45px;
+	}
+.hnz_fczs_l_t a:hover{
+	color:#f59102;	
+		}
+.hnz_fczs_date{
+	width:100%;
+	height:16px;
+	background:url(../../images/hnz/hnz_fczs_date.jpg) no-repeat 110px center;
+	text-align:center;
+	line-height:16px;
+	color:#bbbbbb;
+	}
+.hnz_fczs_right{
+	width:660px;
+	margin-left:7px;
+	height:314px;
+	float:right;
+	overflow:hidden;
+	}
+.hnz_fczs_r_one{
+	float:left;
+	width:214px;
+	height:152px;
+	margin:0px 5px 5px 0;
+	position:relative;
+	overflow:hidden;
+	}
+.hnz_fczs_r_one img{
+	width:100%;
+	}
+.hnz_fczs_r_one span{
+	display:block;
+	color:#fff;
+	width:194px;
+	height:15px;
+	font-size:14px;
+	padding:10px;
+	background:#000;
+	opacity:0.5;
+	line-height:15px;
+	overflow:hidden;
+	position:absolute;
+	bottom:-35px;
+	left:0;	
+	}
+/*风采展示 End*/
 
+.hnz_links{
+	padding:10px 30px 10px 110px;
+	width:860px;
+	height:63px;
+	border:1px solid #ccc;
+	margin:50px auto;
+	overflow:hidden;
+	font-size:14px;
+	box-shadow:2px 3px 6px #ccc;
+	background:#fff url(../../images/hnz/hnz_links.jpg) no-repeat 0 0;
+	}
+.hnz_links a{
+	display:inline-block;
+	margin:0 20px;
+	line-height:25px;
+	overflow:hidden;
+	}
+.hnz_links a:hover{
+	color:#0391da;
+	}
+
+
+
+.hnz_foot_box{
+	min-width:1002px;
+	height:352px;
+	background:url(../../images/hnz_footer_bg.jpg) repeat-x 0 0;
+	}
 
 
 
